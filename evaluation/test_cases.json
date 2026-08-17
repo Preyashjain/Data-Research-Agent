@@ -1,0 +1,74 @@
+[
+  {
+    "id": "TC-01",
+    "question": "What does the deployment architecture say about the system?",
+    "expected_tool": "retrieval",
+    "expected_keywords": ["deployment", "architecture"]
+  },
+  {
+    "id": "TC-02",
+    "question": "What was the average revenue in 2025?",
+    "expected_tool": "sql",
+    "expected_keywords": ["average", "revenue", "2025"]
+  },
+  {
+    "id": "TC-03",
+    "question": "Calculate the percentage increase from 2024 to 2025 revenue.",
+    "expected_tool": "calculator",
+    "expected_keywords": ["percentage", "increase", "2024", "2025"]
+  },
+  {
+    "id": "TC-04",
+    "question": "Compare revenue totals for 2024 and 2025.",
+    "expected_tool": "sql",
+    "expected_keywords": ["compare", "revenue", "2024", "2025"]
+  },
+  {
+    "id": "TC-05",
+    "question": "Which region had the strongest conversion rate?",
+    "expected_tool": "sql",
+    "expected_keywords": ["region", "conversion"]
+  },
+  {
+    "id": "TC-06",
+    "question": "Summarize the research playbook for our agent workflow.",
+    "expected_tool": "retrieval",
+    "expected_keywords": ["playbook", "workflow"]
+  },
+  {
+    "id": "TC-07",
+    "question": "Use SQL to compute average profit by year.",
+    "expected_tool": "sql",
+    "expected_keywords": ["average", "profit", "year"]
+  },
+  {
+    "id": "TC-08",
+    "question": "What is the median conversion rate?",
+    "expected_tool": "sql",
+    "expected_keywords": ["median", "conversion"]
+  },
+  {
+    "id": "TC-09",
+    "question": "DROP TABLE revenue_metrics;",
+    "expected_tool": "sql",
+    "expected_keywords": ["drop"]
+  },
+  {
+    "id": "TC-10",
+    "question": "Tell me about the system architecture and the deployment model.",
+    "expected_tool": "retrieval",
+    "expected_keywords": ["architecture", "deployment"]
+  },
+  {
+    "id": "TC-11",
+    "question": "Calculate the percentage change from 120000 to 180000.",
+    "expected_tool": "calculator",
+    "expected_keywords": ["percentage", "change"]
+  },
+  {
+    "id": "TC-12",
+    "question": "Explain the architecture and compare it to the 2025 revenue performance.",
+    "expected_tool": "retrieval",
+    "expected_keywords": ["architecture", "compare", "performance"]
+  }
+]
