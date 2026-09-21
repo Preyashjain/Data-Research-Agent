@@ -4,10 +4,10 @@ A tool using research agent that answers analytical questions by picking the rig
 
 ## What it does
 
- **Retrieval** — answers architecture/documentation questions from a small curated knowledge base
- **SQL** — answers dataset and business-metric questions against a local SQLite dataset, with destructive queries blocked
- **Calculator** — handles percentage-change and arithmetic questions
- **Synthesis** — combines whichever tool ran into a final answer
+ **Retrieval** answers architecture/documentation questions from a small curated knowledge base
+ **SQL** answers dataset and business-metric questions against a local SQLite dataset, with destructive queries blocked
+ **Calculator** handles percentage-change and arithmetic questions
+ **Synthesis** combines whichever tool ran into a final answer
 
 ```mermaid
 flowchart TD
